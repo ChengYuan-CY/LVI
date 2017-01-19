@@ -1,0 +1,66 @@
+C51 COMPILER V9.53.0.0   EFM8BB3_UART_INTERRUPT                                            01/18/2017 17:47:48 PAGE 1   
+
+
+C51 COMPILER V9.53.0.0, COMPILATION OF MODULE EFM8BB3_UART_INTERRUPT
+OBJECT MODULE PLACED IN .\src\EFM8BB3_UART_Interrupt.OBJ
+COMPILER INVOKED BY: c:\SiliconLabs\SimplicityStudio\v3\developer\toolchains\keil_8051\9.53\BIN\C51.exe C:\Users\yucheng
+                    -\SimplicityStudio\usb_pd_stash\EFM8BB3_UART_Interrupt\src\EFM8BB3_UART_Interrupt.c OMF2 SMALL DEBUG OBJECTEXTEND ROM(LAR
+                    -GE) WARNINGLEVEL(2) FLOATFUZZY(3) OPTIMIZE(8,SPEED) DEFINE(DEBUG=1) INTVECTOR(0X0000) INTPROMOTE INCDIR(C:\Users\yucheng
+                    -\SimplicityStudio\usb_pd_stash\EFM8BB3_UART_Interrupt\inc;C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/si8051/v3//D
+                    -evice/shared/si8051Base;C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/si8051/v3//Device/EFM8BB3;C:/SiliconLabs/Simpl
+                    -icityStudio/v3/developer/sdks/si8051/v3//Device/EFM8BB3/inc) PRINT(.\src\EFM8BB3_UART_Interrupt.lst) COND PAGEWIDTH(120)
+                    - PAGELENGTH(65) OBJECT(.\src\EFM8BB3_UART_Interrupt.OBJ)
+
+line level    source
+
+   1          //-----------------------------------------------------------------------------
+   2          // Includes
+   3          //-----------------------------------------------------------------------------
+   4          #include <SI_EFM8BB3_Register_Enums.h>                  // SFR declarations
+   5          #include "InitDevice.h"
+   6          // $[Generated Includes]
+   7          // [Generated Includes]$
+   8          unsigned char received_byte;
+   9          //-----------------------------------------------------------------------------
+  10          // main() Routine
+  11          // ----------------------------------------------------------------------------
+  12          int main(void) {
+  13   1              // Call hardware initialization routine
+  14   1              enter_DefaultMode_from_RESET();
+  15   1      
+  16   1              IE_EA = 1;
+  17   1      
+  18   1              SCON1_TI = 1;
+  19   1              while (1);
+  20   1              {
+  21   2      // $[Generated Run-time code]
+  22   2      //              SFRPAGE = 0x20;
+  23   2      //              if(SCON1_RI == 1)
+  24   2      //              {
+  25   2      //                      received_byte = SBUF1;
+  26   2      //                      SBUF1 = received_byte;
+  27   2      //                      while(SCON1_TI != 1);
+  28   2      //                      SCON1_TI = 0;
+  29   2      //              }
+  30   2      
+  31   2      // [Generated Run-time code]$
+  32   2              }
+  33   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =      9    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      1    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
