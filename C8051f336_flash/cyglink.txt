@@ -1,0 +1,2 @@
+"C:\Users\yucheng\SimplicityStudio\Silabs_IDE_ws\c8051f336_flash\F336_flash_test.obj",
+"C:\Users\yucheng\SimplicityStudio\Silabs_IDE_ws\c8051f336_flash\F336_FlashUtils.obj"  TO "C:\Users\yucheng\SimplicityStudio\Silabs_IDE_ws\c8051f336_flash\c8051f336_flash" RS(256) PL(68) PW(78) 

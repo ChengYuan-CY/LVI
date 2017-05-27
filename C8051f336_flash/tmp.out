@@ -1,0 +1,8 @@
+
+BL51 BANKED LINKER/LOCATER V6.22 - SN: K1RLC-W0201Z
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+"C:\Users\yucheng\SimplicityStudio\Silabs_IDE_ws\c8051f336_flash\F336_flash_test.obj",
+"C:\Users\yucheng\SimplicityStudio\Silabs_IDE_ws\c8051f336_flash\F336_FlashUtils.obj"  TO "C:\Users\yucheng\SimplicityStudio\Silabs_IDE_ws\c8051f336_flash\c8051f336_flash" RS(256) PL(68) PW(78) 
+
+Program Size: data=24.1 xdata=0 code=392
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
