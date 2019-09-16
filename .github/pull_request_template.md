@@ -1,6 +1,7 @@
-Related issue: (You can bring up a list of suggested issues and pull requests within the repository by typing #) #26
+Bug Fixes #xx (You can bring up a list of suggested issues within the repository by typing #, for e.g, #26)
+New Feature (Please only keep either the "Bug Fixes #xx" or "New Feature" in your pull request description." )
 
-A description of the changes proposed in the pull request:
+Description about the pull request:
 -
 -
 -
@@ -8,4 +9,4 @@ A description of the changes proposed in the pull request:
 -
 -
 
-@mentions of the person or team responsible for reviewing proposed changes. @cheng.yuan
+@xx (mentions of the person or team responsible for reviewing proposed changes. for e.g, @cheng.yuan)
