@@ -1,7 +1,8 @@
 ---
 name: Documentation Improvement
 about: Create a report for documentation improvement
-title: "[DOC]"
+title: "[DOC] A clear and concise description about the documentation improvement
+  request"
 labels: ''
 assignees: ''
 
