@@ -9,7 +9,7 @@ assignees: ''
 Bug Fixes #xx (You can bring up a list of suggested issues within the repository by typing #, for e.g, #26)
 New Feature (Please only keep either the "Bug Fixes #xx" or "New Feature" in your pull request description." )
 
-# Type of change
+# Type of pull request
 *(Please delete options that are not relevant, the following [#xx] is optional if the pull request is for a recorded issue)*
 - [ ] Bug Fix [#xx]
 - [ ] New Feature Implementation [#xx]
